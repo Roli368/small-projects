@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded",()=>{
 
          {id:6,name:"Masala Bistro" ,price: 305, image:"https://b.zmtcdn.com/data/pictures/9/20171939/c00a992b780f6db5dd98bea53e4f956f_o2_featured_v2.jpg"}
     ];
-const cart=[];
+const cart=[ ];
 
 const productList=document.getElementById("product-list");
 

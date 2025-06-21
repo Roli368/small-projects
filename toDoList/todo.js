@@ -14,8 +14,8 @@ addTaskButton.addEventListener('click', () => {
     completed: false,
   };
 
-  tasks.push(newTask);
-  todoInput.value = "";
+  tasks.push(newTask);  
+  todoInput.value = ""
 
   const li = document.createElement("li");  
   li.className = "task-item";
