@@ -1,31 +1,52 @@
+
+
 .container{
- width: 250px;
- border: 5px solid rgb(143, 140, 148);
  border-radius: 5px ;
-background-color: rgb(170, 163, 163);
-
-
+background-color: rgb(248, 241, 241);
 }
 .container h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgba(21, 21, 26, 0.881);
+    color: rgba(19, 19, 24, 0.993);
     box-shadow: 5px,5px,10px rgb(215, 191, 191);
 }
 
 #checkout-btn{
 height: 28px;
 background-color: rgb(127, 127, 155);
-color: white;
-margin-left: 90px;
+color: black;
+border-radius: 5px;
+margin-left: 5px;
+
 }
 .product{
-    background-color: rgb(118, 103, 132);
+    background-color: white;
     padding: 5px;
     margin-bottom: 3px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex; 
     border-radius: 5px;
+}
+.delete-btn {
+ height: 22px;
+ width: 50px;
+ margin: 5px;
+ border: 1px solid rgb(177, 143, 177);
+  border-radius: 3px;
+  font-size: 13px;
+  color: rgb(34, 18, 18);
+  cursor: pointer;
+  background-color: rgb(214, 207, 207);
+}
+#product-list{
+    display: flex;
+}
+#cart-items{
+    padding: 10px;
+}
+#h2{display: flex; align-items: center; justify-content: center; font-weight: bolder;
+    height: 30px;
+    width: 190px;
+    margin-left: 10px;
+    background-color: rgb(127, 122, 132);
 }

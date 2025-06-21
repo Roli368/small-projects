@@ -1,5 +1,5 @@
 
- const todoInput = document.getElementById("todo-input");
+const todoInput = document.getElementById("todo-input");
 const addTaskButton = document.getElementById("add-task-btn");
 const todolist = document.getElementById("todo-list");
 const tasks = [];
